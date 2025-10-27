@@ -12,6 +12,7 @@
 # Nmap scripts
 
 - mysql-empty-password : check anon login
+- example 'nmap -sV -p 3306 --script=mysql-empty-password <target>'
 - mysql-info : check InteractiveClient capability
 - mysql-users --script-args="mysqluser='root',mysqlpass=''"
 - mysql-databases --script-args="mysqluser='root',mysqlpass=''"
