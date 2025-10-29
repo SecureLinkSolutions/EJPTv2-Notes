@@ -15,8 +15,8 @@
 - brute-force
 - hydra -L <userlist> -P <passlist> rdp://10.0.0.31 -s 3333
 - wordlists:
-	- /usr/share/metasploit-framework/data/wordlists/common_users.txt
-	- /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt
+	- /usr/share/wordlists/metasploit/unix_users.txt
+	- /usr/share/wordlists/metasploit/unix_passwords.txt
 	- -s specifies non-standard port
 - xfreerdp /u:<user> /p:<pass> /v:10.0.0.31:3333
 
